@@ -15,25 +15,25 @@ const calcularMedidas = (evento) => {
 
     if (resultado < 17) {
         imc.innerText = `Seu IMC é ${resultado} kg/m².`;
-        diag.innerText = 'Diagnósito: Muito abaixo do peso';
+        diag.innerText = 'Diagnóstico: Muito abaixo do peso';
     } else if (resultado >= 17 && resultado <= 18.49) {
         imc.innerText = `Seu IMC é ${resultado} kg/m².`;
-        diag.innerText = 'Diagnósito: Abaixo do peso';
+        diag.innerText = 'Diagnóstico: Abaixo do peso';
     } else if (resultado >= 18.5 && resultado <= 24.99) {
         imc.innerText = `Seu IMC é ${resultado} kg/m².`;
-        diag.innerText = 'Diagnósito: Peso normal';
+        diag.innerText = 'Diagnóstico: Peso normal';
     } else if (resultado >= 25 && resultado <= 29.99) {
         imc.innerText = `Seu IMC é ${resultado} kg/m².`;
-        diag.innerText = 'Diagnósito: Acima do peso';
+        diag.innerText = 'Diagnóstico: Acima do peso';
     } else if (resultado >= 30 && resultado <= 34.99) {
         imc.innerText = `Seu IMC é ${resultado} kg/m².`;
-        diag.innerText = 'Diagnósito: Obesidade I';
+        diag.innerText = 'Diagnóstico: Obesidade I';
     } else if (resultado >= 35 && resultado <= 39.99) {
         imc.innerText = `Seu IMC é ${resultado} kg/m².`;
-        diag.innerText = 'Diagnósito: Obesidade II (severa)';
+        diag.innerText = 'Diagnóstico: Obesidade II (severa)';
     } else {
         imc.innerText = `Seu IMC é ${resultado} kg/m².`;
-        diag.innerText = 'Diagnósito: Obesidade III (mórbida)';
+        diag.innerText = 'Diagnóstico: Obesidade III (mórbida)';
     };
 };
 
